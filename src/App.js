@@ -3,28 +3,31 @@ import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Portfolio from './Components/Portfolio';
 import About from './Components/About';
+import Home from './pages/Homepage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
 
 function App() {
-  return (
+  return (   
     <BrowserRouter>
-      <div className="App">
+      <div className="App container-fluid d-flex">
 
-        <Route exact path="/" component={About} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
-        {/* <Route exact path="/" component={Projects} /> */}
 
 
-        <div className="navigation">
-          {/* <img src="" className="logo" alt="Logo Image" /> */}
-          <div className="navigation-sub">
+        <div className="navigation row">
+        {/* <img src={Background} className="logo" alt="Background" /> */}
+          <div className="navigation-sub col-sm-12 col-md-4">
 
-
-            <Link to="/" className="item m-2">About</Link>
+            <Link to="/" className="item m-2">Home</Link>
+            <Link to="/about" className="item m-2">About Me</Link>
             <Link to="/portfolio" className="item m-2">Portfolio</Link>
-            {/* <a href="" className="item">About</a> */}
+            
           </div>
         </div>
       </div>
