@@ -4,7 +4,7 @@ import Image from '../../img/Alex-Bertrand.jpg';
 function About(props) {
   return (
     <div className="container">
-      <section className="container-fluid m-3 p-3" id="about">
+      <section className="container-fluid bg-secondary m-3 p-3">
             <div className="row">
                 <div className="col-12">
                     <h2 className="p-3">About Me</h2>
