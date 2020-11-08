@@ -1,12 +1,11 @@
 import React from 'react';
-import './style.css';
 
 
 function Footer() {
     return (
         <div>
         <footer>
-            <div className="navbar bg-light justify-content-center pb-3">
+            <div className="navbar fixed-bottom bg-light justify-content-center">
                 <p><strong>Alex Bertrand | &copy; Copyright 2020</strong></p>
             </div>
         </footer>

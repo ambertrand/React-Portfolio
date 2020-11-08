@@ -15,23 +15,23 @@ function App() {
       <div className="App container-fluid">
         <Header />
 
-          <div className="row navigation navbar bg-light d-flex">
-            <div className="col-12 navigation-sub text-center">
+        <div className="row navigation navbar bg-light d-flex">
+          <div className="col-12 navigation-sub text-center">
 
-              <Link to="/" className="item navbar-brand m-3">Home</Link>
-              <Link to="/about" className="item navbar-brand m-3">About Me</Link>
-              <Link to="/portfolio" className="item navbar-brand m-3">Projects</Link>
+            <Link to="/" className="item navbar-brand m-3">Home</Link>
+            <Link to="/about" className="item navbar-brand m-3">About Me</Link>
+            <Link to="/portfolio" className="item navbar-brand m-3">Projects</Link>
 
-            </div>
           </div>
-
-          <Route exact path="/" />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Project} />
-
-          <Footer />
-
         </div>
+
+
+        <Route exact path="/" />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Project} />
+
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
