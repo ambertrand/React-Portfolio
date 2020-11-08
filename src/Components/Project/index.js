@@ -1,6 +1,6 @@
 import React from "react"
 import Thumbnail from '../Thumbnail';
-import projectThumbnail from '../../img/index-screenshot.png';
+// import projectThumbnail from '../../img/index-screenshot.png';
  
 function Projects() {
   return (
