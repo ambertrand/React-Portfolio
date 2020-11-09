@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import Projects from './Components/Project';
 import About from './Components/About';
+import Portfolio from './Components/Portfolio';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -28,7 +28,7 @@ function App() {
 
         <Route exact path="/" />
         <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Projects} />
+        <Route exact path="/portfolio" component={Portfolio} />
 
         <Footer />
       </div>

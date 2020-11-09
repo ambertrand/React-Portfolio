@@ -1,7 +1,7 @@
 import adventureThumbnail from '../img/index-screenshot.png';
-import employeeThumbnail from '../img/start-screen-screenshot.png';
+import employeeThumbnail from '../img/Start-screen-screenshot.png';
 import burgerThumbnail from '../img/Burger-screenshot.png';
-import weatherThumbnail from '../img/City-Search-screenshot.png';
+import weatherThumbnail from '../img/City-search-screenshot.png';
 import passwordThumbnail from '../img/Password-generator-screenshot.png';
 
 const projects = [
@@ -11,17 +11,10 @@ const projects = [
         image: adventureThumbnail,
         technologies: [
             "Basic: HTML, CSS, Javascript",
-            "Bootstrap",
-            "jQuery",
-            "Node.js",
-            "Express",
-            "Express-Handlebars",
-            "Axios",
-            "MySQL",
-            "Sequelize",
-            "Passport.js",
-            "bcrypt.js",
-            "ESLint"
+            "Bootstrap. jQuery",
+            "Hiking Project API",
+            "Node.js, Express, Handlebars",
+            "MySQL, Sequelize, Passport.js",
         ],
         code: "https://github.com/dylanbest15/Outdoor-Adventure-Buddies",
         deployment: "https://whispering-castle-57159.herokuapp.com/",
