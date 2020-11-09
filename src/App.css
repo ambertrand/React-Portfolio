@@ -1,5 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
 div.App {
-    background-image: url("https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-image: url("https://paulryan.com.au/wp-content/uploads/2015/01/high-resolution-wallpapers-25.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

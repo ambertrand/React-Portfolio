@@ -1,16 +1,17 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
+import Contact from './Components/ContactMe';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
 
       <div className="App container-fluid">
         <Header />
@@ -21,18 +22,19 @@ function App() {
             <Link to="/" className="item navbar-brand m-3">Home</Link>
             <Link to="/about" className="item navbar-brand m-3">About Me</Link>
             <Link to="/portfolio" className="item navbar-brand m-3">Projects</Link>
+            <Link to="/contact" className="item navbar-brand m-3">Contact</Link>
 
           </div>
         </div>
 
-
         <Route exact path="/" />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
 
         <Footer />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
